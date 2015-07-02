@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.paypoint</groupId>
+  <artifactId>mobilesdk-android</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>PayPoint Advanced Payments SDK</name>
+  <description>Library for making mobile payments with PayPoint</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.rxjava</groupId>
+      <artifactId>rxjava-android</artifactId>
+      <version>0.20.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp-urlconnection</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
